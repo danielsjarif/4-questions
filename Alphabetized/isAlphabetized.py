@@ -1,17 +1,21 @@
-#############################################################################################################
+#########################################################################################################################################################
+#The comments directly below this is mostly identical or at least similar to the comments that I have put into the actual code. I just integrated
+#the comments into the code to explain my thought process.
 
-#No where is the defined function called, nothing is being outputted.
-    #The isAlphabetized function doesn't actually check if anything (string, list, etc) is alphabetized.
+#Bugs/Errors:
+#No where is the defined function, isAlphabetized, called. The desired output (isAlphabetized) is never shown
+    #The isAlphabetized function doesn't actually check if input is alphabetized.
     #BufferedReader (originally a java class) reads input, and while input isn't empty,
-    #The program, according to the given code, would only print out whatever was inputted
+    #the program, according to the given code, would only print out whatever was inputted
 #Finally, isAlphabetized was incorrectly spelled as isAlphabitized
 
-#############################################################################################################
+#########################################################################################################################################################
 
 from com.parasoft.api import *
 from java.io import *
 
 #Defined function isAlphabetized is never called. Nothing is being outputted.
+#Or at least, the desired output (isAlphabetized) is never being shown
 #def isAlphabitized(x, context):
 
 def isAlphabetized(x, context):

@@ -1,3 +1,8 @@
+// To run:
+// Step 1: javac Rational.java
+// Step 2: java Rational
+// Test harness exists inside Rational.java where you can play around with the functions and change values
+
 import java.util.Objects;
 
 public class Rational implements Comparable <Rational>{
@@ -162,7 +167,7 @@ public class Rational implements Comparable <Rational>{
       x = new Rational(0, 1);
       System.out.println(x.add(x).compareTo(x) == 0);
 
-//
+//Rational to decimal. 2/3 = 0.6666666...
       x = new Rational(2, 3);
       System.out.println(x.toDecimal(x));
 

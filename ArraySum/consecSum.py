@@ -1,3 +1,7 @@
+##############################
+#To run: python consecSum.py
+##############################
+
 def consecSum(lst, n):
     sum = 0
     sum_list = []

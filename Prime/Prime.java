@@ -1,3 +1,10 @@
+//To run:
+//Step 1: javac Prime.java
+//Step 2: java Prime
+//Step 3: First prompt, enter the nth prime number you want to find
+//i.e., entering 5 in step 3 will give you the 5th prime which is 11.
+
+
 import java.util.Scanner;
 
 public class Prime {
