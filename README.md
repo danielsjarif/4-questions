@@ -1,4 +1,5 @@
 # 4-questions
+Cute little exercises.
 
 ## How to Run Each Program
 ### ArraySum
